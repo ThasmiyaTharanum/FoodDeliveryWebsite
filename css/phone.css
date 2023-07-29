@@ -1,0 +1,93 @@
+/* Navigatom */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar img {
+    display: block;
+    margin: auto;
+}
+
+#navbar ul li a {
+    font-size: 1.0rem;
+    padding: 5px;
+}
+
+
+/* Home section */
+
+#home {
+    height: 650px;
+    padding: 0px 42px;
+}
+
+#home::before {
+    height: 800px;
+}
+
+#home p {
+    font-size: 12px;
+}
+
+/* services section */
+#services {
+    flex-direction: column;
+}
+
+.services-container::before {
+    content: "";
+    height: 2040px;
+}
+
+/* delivery partners section */
+#partners {
+    flex-wrap: wrap;
+}
+
+.delivery-partners {
+    height: 800px;
+
+}
+
+#partners img {
+    height: 100px;
+    padding: 3px;
+}
+
+.delivery-partners::before {
+
+    height: 126%;
+}
+
+/* contact */
+
+#contact-box form {
+    width: 80%;
+}
+
+#contact-box textarea,
+input {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 3px;
+    font-size: 0.8.rem;
+}
+
+#contact-box label {
+    font-size: 1.0rem;
+    /* Footer */
+}
+#contact-box {
+    
+    padding-bottom: 468px;
+}
+/* utility classes */
+.h-primary {
+    font-size: 32px;
+}
+
+.btn {
+    padding: 3px;
+    font-size: 1.0rem;
+}
